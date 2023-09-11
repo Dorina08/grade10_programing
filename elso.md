@@ -21,7 +21,7 @@
 ```python
 nemjo = True
 
-while nemjo: #addig fut amíg "nr" nem false
+while nemjo: #addig fut amíg "nemjo" nem false
     szam_str = input("Szám: ")
     if szam_str.isdecimal():
         nemjo = False
